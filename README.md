@@ -114,3 +114,24 @@ $ cat /etc/role
 <div align="center">
 <i>System Integrity: 100% | Threat Level: Minimal | Hack the Planet 🌐</i>
 </div>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=LiveMedia48&theme=chartreuse-dark&hide_border=true&background=0D1117&stroke=3FB950&ring=3FB950&fire=3FB950&currStreakNum=3FB950&currStreakLabel=3FB950" alt="GitHub Streak" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LiveMedia48&layout=donut&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=3FB950&text_color=C9D1D9" alt="Top Languages" />
+<img src="https://github-profile-trophy.vercel.app/?username=LiveMedia48&theme=matrix&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=LiveMedia48&bg_color=0D1117&color=3FB950&line=3FB950&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph" />
+### `> ./stats --matrix`
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=LiveMedia48&theme=chartreuse-dark&hide_border=true&background=0D1117&stroke=3FB950&ring=3FB950&fire=3FB950&currStreakNum=3FB950&currStreakLabel=3FB950" alt="GitHub Streak" height="160" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LiveMedia48&layout=donut&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=3FB950&text_color=C9D1D9" alt="Top Languages" height="160" />
+
+<br><br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=LiveMedia48&theme=matrix&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=LiveMedia48&bg_color=0D1117&color=3FB950&line=3FB950&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph" width="100%" />
+
+</div>
