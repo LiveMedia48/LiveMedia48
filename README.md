@@ -62,6 +62,31 @@ $ cat /etc/role
 
 ---
 
+### `> ./load_modules --verbose`
+
+<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 15px; font-family: 'Fira Code', monospace; color: #c9d1d9; line-height: 1.5;">
+
+```bash
+[+] Initializing security modules...
+[+] Loading offensive toolkit...
+[+] Loading reconnaissance modules...
+[+] Loading exploitation frameworks...
+
+[ 🔴 OFFENSIVE ] Burp Suite · Metasploit · Nmap · ffuf
+[ 🟡 RECON     ] Subfinder · Amass · httpx · Nuclei
+[ 🟢 EXPLOIT   ] SQLi · XSS · SSRF · RCE · PrivEsc
+[ 🔵 RED TEAM  ] C2 Frameworks · AV/EDR Evasion
+[ 🟣 BLUE TEAM ] SIEM · Threat Hunting · Incident Response
+[ ⚪ DEV       ] Python · Bash · Node.js · Git · Docker
+
+[+] All modules loaded successfully.
+[+] System ready. Access granted.
+```
+
+</div>
+
+---
+
 ### `> ./stats --matrix`
 
 <div align="center">
@@ -88,26 +113,4 @@ $ cat /etc/role
 
 <div align="center">
 <i>System Integrity: 100% | Threat Level: Minimal | Hack the Planet 🌐</i>
-</div>
-### `> ./load_modules --verbose`
-
-<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 15px; font-family: 'Fira Code', monospace; color: #c9d1d9; line-height: 1.5;">
-
-```bash
-[+] Initializing security modules...
-[+] Loading offensive toolkit...
-[+] Loading reconnaissance modules...
-[+] Loading exploitation frameworks...
-
-[ 🔴 OFFENSIVE ] Burp Suite · Metasploit · Nmap · ffuf
-[ 🟡 RECON     ] Subfinder · Amass · httpx · Nuclei
-[ 🟢 EXPLOIT   ] SQLi · XSS · SSRF · RCE · PrivEsc
-[ 🔵 RED TEAM  ] C2 Frameworks · AV/EDR Evasion
-[ 🟣 BLUE TEAM ] SIEM · Threat Hunting · Incident Response
-[ ⚪ DEV       ] Python · Bash · Node.js · Git · Docker
-
-[+] All modules loaded successfully.
-[+] System ready. Access granted.
-```
-
 </div>
