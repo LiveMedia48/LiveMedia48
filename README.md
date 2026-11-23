@@ -122,3 +122,14 @@ drwxr-xr-x  1337  root  red-team-ops/      # Adversary simulation & C2 infrastru
 </a>
 
 </div>
+---
+
+### `> find / -name "*.repo" -type d`
+
+```bash
+drwxr-xr-x  1337  root  Live-Media/             # Whatsapp bot using Node.js and Baileys
+drwxr-xr-x  1337  root  Wa-bot/                 # WhatsApp Bot ( Ai )
+drwxr-xr-x  1337  root  Asta-Md/                # A Simple but Advanced WhatsApp Bot
+drwxr-xr-x  1337  root  Live-media-Bot-2026/    # Smart tool that enhances your WhatsApp experience
+drwxr-xr-x  1337  root  LiveMedia48/            # Profile README
+```
