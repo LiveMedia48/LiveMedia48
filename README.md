@@ -1,4 +1,9 @@
-<h1 align="center">System.out.println("Hello, I'm LiveMedia48 👋");</h1>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Mani+Thrissur" alt="Mani Thrissur" />
+  <br>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=600&lines=Live+Media" alt="Live Media" />
+</div>
+
 <h3 align="center">[ 💀 Offensive Security Enthusiast | ⚙️ Automation Builder | 🐧 Linux Power User ]</h3>
 <p align="center">📍 India | 🌐 <i>"The quieter you become, the more you are able to hear."</i></p>
 
