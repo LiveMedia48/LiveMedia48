@@ -8,7 +8,7 @@
 
 ---
 
-<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace;">
+<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 20px; font-family: 'Fira Code', monospace; color: #c9d1d9; line-height: 1.5;">
 
 ```bash
 $ whoami
@@ -16,22 +16,10 @@ LiveMedia48
 
 $ groups
 wheel sudo security redteam
-```
 
-</div>
-
-<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace; margin-top: 10px;">
-
-```bash
 $ uname -a
 Linux archlinux 6.8.9-arch1-1 #1 SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
-```
 
-</div>
-
-<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace; margin-top: 10px;">
-
-```bash
 $ fastfetch
                    -`                     root@LiveMedia48
                   .o+`                    ----------------
@@ -52,13 +40,7 @@ $ fastfetch
   `+sso+:-`                 `.-/+oso:
  `++:.                           `-/+/
  .`                                 `/
-```
 
-</div>
-
-<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace; margin-top: 10px;">
-
-```bash
 $ cat /etc/skills.conf
 [+] Loading offensive modules...
 [+] Loading defensive modules...
@@ -71,13 +53,7 @@ $ cat /etc/skills.conf
 [ DEV       ] Python · Bash · Go · C · PowerShell · Docker · Git
 
 [+] Modules loaded successfully.
-```
 
-</div>
-
-<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace; margin-top: 10px;">
-
-```bash
 $ ls -la /projects
 total 1337
 drwxr-xr-x  42 root root 4096 Nov 23 04:19 .
@@ -87,13 +63,7 @@ drwxr-xr-x   4 root root 4096 Nov 23 04:19 recon-automation
 drwxr-xr-x   6 root root 4096 Nov 23 04:19 ctf-writeups
 drwxr-xr-x   3 root root 4096 Nov 23 04:19 malware-lab
 drwxr-xr-x   5 root root 4096 Nov 23 04:19 red-team-ops
-```
 
-</div>
-
-<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace; margin-top: 10px;">
-
-```bash
 $ systemctl status
 ● hacker.service - Exploit Automation Service
      Loaded: loaded (/etc/systemd/system/hacker.service; enabled; preset: enabled)
@@ -104,36 +74,27 @@ $ systemctl status
         CPU: 1.337s
      CGroup: /system.slice/hacker.service
              └─1337 /usr/bin/python3 /usr/local/bin/exploit.py --target all
-```
 
-</div>
-
----
-
-### `> ./stats.sh`
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=LiveMedia48&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9" />
-
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LiveMedia48&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9" />
-
-</div>
-
----
-
-### `> find / -name "*.repo" -type d`
-
-<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace;">
-
-```bash
 $ find / -name "*.repo" -type d
 drwxr-xr-x  1337  root  Live-Media/             # Whatsapp bot using Node.js and Baileys
 drwxr-xr-x  1337  root  Wa-bot/                 # WhatsApp Bot ( Ai )
 drwxr-xr-x  1337  root  Asta-Md/                # A Simple but Advanced WhatsApp Bot
 drwxr-xr-x  1337  root  Live-media-Bot-2026/    # Smart tool that enhances your WhatsApp experience
 drwxr-xr-x  1337  root  LiveMedia48/            # Profile README
+
+$ ./stats.sh
+
 ```
+
+</div>
+
+---
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=LiveMedia48&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9" />
+
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LiveMedia48&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9" />
 
 </div>
 
