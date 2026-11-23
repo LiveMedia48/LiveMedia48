@@ -61,19 +61,6 @@ drwxr-xr-x  1337  root  red-team-ops/      # Adversary simulation & C2 infrastru
 
 ---
 
-### `> contact --secure --pgp`
-
-```bash
-$ echo "PGP: <YOUR_PGP_KEY_ID>" >> contact.txt
-$ echo "Email: <YOUR_EMAIL>" >> contact.txt
-$ echo "Matrix: @LiveMedia48:matrix.org" >> contact.txt
-$ gpg --recv-keys <YOUR_PGP_KEY_ID>
-```
-
-> ⚠️ **Responsible disclosure only.** All communications must be PGP-encrypted.
-
----
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:00FF41,100:000000&height=80&section=footer&animation=twinkling" />
