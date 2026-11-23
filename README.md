@@ -1,16 +1,15 @@
-## Hi there 👋
+# Hi, I'm LiveMedia48 👋
 
-<!--
-**LiveMedia48/LiveMedia48** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🔭 ഇപ്പോൾ പ്രവർത്തിക്കുന്നത്: **...**
+- 🌱 പഠിക്കുന്നത്: **...**
+- 💬 ചോദിക്കാൻ: **...**
+- 📫 ബന്ധപ്പെടാൻ: **...**
 
-Here are some ideas to get you started:
+## 🛠️ Tech Stack
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📊 GitHub Stats
+![Stats](https://github-readme-stats.vercel.app/api?username=LiveMedia48&show_icons=true&theme=transparent)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LiveMedia48&layout=compact&theme=transparent)
