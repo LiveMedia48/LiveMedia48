@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2000&pause=500&color=00FF41&center=true&vCenter=true&width=600&lines=%5B+SYSTEM+ONLINE+%5D;LiveMedia48+%2F%2F+ACCESS+GRANTED;%3E+whoami;Offensive+Security+%7C+Red+Team" alt="Typing SVG" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:00FF41,100:000000&height=100&section=header&text=HACK+THE+PLANET&fontSize=28&fontColor=00FF41&animation=twinkling" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:00FF41,100:000000&height=100&section=header&text=HACK+THE+PLANET&fontSize=28&fontColor=00FF41&animation=twinkling&v=2" />
 
 </div>
 
@@ -83,7 +83,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:00FF41,100:000000&height=80&section=footer&animation=twinkling" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:00FF41,100:000000&height=80&section=footer&animation=twinkling&v=2" />
 
 ```ansi
 [0;32m[ SYSTEM ONLINE ]  [ ACCESS GRANTED ]  [ HACK THE PLANET ][0m
