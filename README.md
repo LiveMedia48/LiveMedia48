@@ -9,31 +9,58 @@
 ---
 
 ```ansi
-[0;32m$ whoami[0m
-LiveMedia48
+[0;32m┌──[LiveMedia48@kernel-hardened]-[~][0m
+[0;32m└─$[0m [0;37mwhoami[0m
+[0;32mLiveMedia48[0m
 
-[0;32m$ cat /etc/role[0m
-Offensive Security | Red Team | Vulnerability Research | Malware Analysis
+[0;32m┌──[LiveMedia48@kernel-hardened]-[~][0m
+[0;32m└─$[0m [0;37mcat /etc/role[0m
+[0;32m├─[0m [0;36mOffensive Security[0m
+[0;32m├─[0m [0;36mRed Team Operations[0m
+[0;32m├─[0m [0;36mVulnerability Research[0m
+[0;32m└─[0m [0;36mMalware Analysis[0m
 
-[0;32m$ uname -a[0m
-Linux kernel-hardened 0x1337 #1 SMP PREEMPT_DYNAMIC
+[0;32m┌──[LiveMedia48@kernel-hardened]-[~][0m
+[0;32m└─$[0m [0;37muname -a[0m
+[0;32mLinux kernel-hardened 0x1337 #1 SMP PREEMPT_DYNAMIC[0m
 
-[0;32m$ ps aux | grep hacker[0m
-root  1337  0.0  0.1  /usr/bin/liveMedia48 --stealth --no-logs
+[0;32m┌──[LiveMedia48@kernel-hardened]-[~][0m
+[0;32m└─$[0m [0;37mps aux | grep hacker[0m
+[0;31mroot[0m  [0;33m1337[0m  0.0  0.1  [0;36m/usr/bin/liveMedia48 --stealth --no-logs[0m
 ```
 
 ---
 
 ### `> cat /etc/skills.conf`
 
-| Domain | Arsenal |
-|:---|:---|
-| **Offensive** | Burp Suite · Metasploit · Cobalt Strike · Sliver · Nmap · ffuf |
-| **Recon** | Subfinder · Amass · httpx · Nuclei · Shodan · theHarvester |
-| **Exploit** | SQLi · XSS · SSRF · RCE · LFI/RFI · AD Attacks · PrivEsc |
-| **Red Team** | C2 Frameworks · Phishing · AV/EDR Evasion · Lateral Movement |
-| **Blue Team** | SIEM · Threat Hunting · Incident Response |
-| **Dev** | Python · Bash · Go · C · PowerShell · Docker · Git |
+<table>
+<tr>
+<td width="50%">
+
+**🔴 Offensive**
+`Burp Suite` · `Metasploit` · `Cobalt Strike` · `Sliver` · `Nmap` · `ffuf`
+
+**🟠 Recon**
+`Subfinder` · `Amass` · `httpx` · `Nuclei` · `Shodan` · `theHarvester`
+
+**🟡 Exploit**
+`SQLi` · `XSS` · `SSRF` · `RCE` · `LFI/RFI` · `AD Attacks` · `PrivEsc`
+
+</td>
+<td width="50%">
+
+**🟢 Red Team**
+`C2 Frameworks` · `Phishing` · `AV/EDR Evasion` · `Lateral Movement`
+
+**🔵 Blue Team**
+`SIEM` · `Threat Hunting` · `Incident Response`
+
+**🟣 Dev**
+`Python` · `Bash` · `Go` · `C` · `PowerShell` · `Docker` · `Git`
+
+</td>
+</tr>
+</table>
 
 ---
 
