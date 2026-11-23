@@ -275,3 +275,123 @@ drwxr-xr-x  1337  root  LiveMedia48/            # Profile README
 ![Visitors](https://komarev.com/ghpvc/?username=LiveMedia48&color=3FB950&style=flat-square&label=RECON+VISITORS)
 
 </div>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:00FF41,100:000000&height=100&section=header&text=HACK+THE+PLANET&fontSize=28&fontColor=00FF41&animation=twinkling&v=2" />
+</div>
+
+<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace;">
+
+```bash
+$ whoami
+LiveMedia48
+
+$ groups
+wheel sudo security redteam
+```
+
+</div>
+
+<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace; margin-top: 10px;">
+
+```bash
+$ uname -a
+Linux archlinux 6.8.9-arch1-1 #1 SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
+```
+
+</div>
+
+<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace; margin-top: 10px;">
+
+```bash
+$ fastfetch
+                   -`                     root@LiveMedia48
+                  .o+`                    ----------------
+                 `ooo/                    OS: Arch Linux x86_64
+                `+oooo:                   Kernel: 6.8.9-arch1-1
+               `+oooooo:                  Uptime: 42 days, 13 hours
+               -+oooooo+:                 Packages: 1337 (pacman)
+             `/:-:++oooo+:                Shell: zsh 5.9
+            `/++++/+++++++:               Resolution: 1920x1080
+           `/++++++++++++++:              WM: i3
+          `/+++ooooooooooooo/`            Theme: Adwaita-dark
+         ./ooosssso++osssssso+`           Terminal: alacritty
+        .oossssso-````/ossssss+`          CPU: Intel i7-10750H (12) @ 4.5GHz
+       -osssssso.      :ssssssso.         GPU: NVIDIA GeForce RTX 2060
+      :osssssss/        osssso+++.        Memory: 8192MiB / 16384MiB
+     /ossssssss/        +ssssooo/-
+   `/ossssso+/:-        -:/+osssso+-
+  `+sso+:-`                 `.-/+oso:
+ `++:.                           `-/+/
+ .`                                 `/
+```
+
+</div>
+
+<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace; margin-top: 10px;">
+
+```bash
+$ cat /etc/skills.conf
+[+] Loading offensive modules...
+[+] Loading defensive modules...
+
+[ OFFENSIVE ] Burp Suite · Metasploit · Cobalt Strike · Sliver · Nmap · ffuf
+[ RECON     ] Subfinder · Amass · httpx · Nuclei · Shodan · theHarvester
+[ EXPLOIT   ] SQLi · XSS · SSRF · RCE · LFI/RFI · AD Attacks · PrivEsc
+[ RED TEAM  ] C2 Frameworks · Phishing · AV/EDR Evasion · Lateral Movement
+[ BLUE TEAM ] SIEM · Threat Hunting · Incident Response
+[ DEV       ] Python · Bash · Go · C · PowerShell · Docker · Git
+
+[+] Modules loaded successfully.
+```
+
+</div>
+
+<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace; margin-top: 10px;">
+
+```bash
+$ ls -la /projects
+total 1337
+drwxr-xr-x  42 root root 4096 Nov 23 04:19 .
+drwxr-xr-x  18 root root 4096 Nov 23 04:19 ..
+drwxr-xr-x   8 root root 4096 Nov 23 04:19 exploit-dev
+drwxr-xr-x   4 root root 4096 Nov 23 04:19 recon-automation
+drwxr-xr-x   6 root root 4096 Nov 23 04:19 ctf-writeups
+drwxr-xr-x   3 root root 4096 Nov 23 04:19 malware-lab
+drwxr-xr-x   5 root root 4096 Nov 23 04:19 red-team-ops
+```
+
+</div>
+
+<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace; margin-top: 10px;">
+
+```bash
+$ systemctl status
+● hacker.service - Exploit Automation Service
+     Loaded: loaded (/etc/systemd/system/hacker.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2026-11-23 04:19:00 UTC; 42 days ago
+   Main PID: 1337 (python3)
+      Tasks: 1 (limit: 16384)
+     Memory: 64.2M
+        CPU: 1.337s
+     CGroup: /system.slice/hacker.service
+             └─1337 /usr/bin/python3 /usr/local/bin/exploit.py --target all
+```
+
+</div>
+
+<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace; margin-top: 10px;">
+
+```bash
+$ find / -name "*.repo" -type d
+drwxr-xr-x  1337  root  Live-Media/             # Whatsapp bot using Node.js and Baileys
+drwxr-xr-x  1337  root  Wa-bot/                 # WhatsApp Bot ( Ai )
+drwxr-xr-x  1337  root  Asta-Md/                # A Simple but Advanced WhatsApp Bot
+drwxr-xr-x  1337  root  Live-media-Bot-2026/    # Smart tool that enhances your WhatsApp experience
+drwxr-xr-x  1337  root  LiveMedia48/            # Profile README
+```
+
+</div>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:00FF41,100:000000&height=80&section=footer&animation=twinkling&v=2" />
+</div>
