@@ -101,3 +101,24 @@ drwxr-xr-x  1337  root  red-team-ops/      # Adversary simulation & C2 infrastru
 </a>
 
 </div>
+---
+
+### `> ls -la /popular-repos`
+
+<div align="center">
+
+<a href="https://github.com/LiveMedia48/Live-Media">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LiveMedia48&repo=Live-Media&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&hide_border=true" />
+</a>
+<a href="https://github.com/LiveMedia48/Wa-bot">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LiveMedia48&repo=Wa-bot&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&hide_border=true" />
+</a>
+<br><br>
+<a href="https://github.com/LiveMedia48/Asta-Md">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LiveMedia48&repo=Asta-Md&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&hide_border=true" />
+</a>
+<a href="https://github.com/LiveMedia48/Live-media-Bot-2026">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LiveMedia48&repo=Live-media-Bot-2026&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9&hide_border=true" />
+</a>
+
+</div>
