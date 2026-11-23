@@ -1,14 +1,20 @@
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════╗
-║  LiveMedia48 — Offensive Security & Red Team Operations  ║
-╚══════════════════════════════════════════════════════════╝
-```
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=800&color=39D353&center=true&vCenter=true&width=700&lines=LiveMedia48;Offensive+Security+%7C+Red+Team;Penetration+Tester+%7C+Security+Researcher;%5B+SYSTEM+ONLINE+%5D" alt="Typing SVG" />
 
-**`[ Penetration Tester ]`** · **`[ Red Team Operator ]`** · **`[ Security Researcher ]`**
+<br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-LiveMedia48-0d1117?style=for-the-badge&logo=github&logoColor=39d353)](https://github.com/LiveMedia48)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:39d353,100:0d1117&height=120&section=header&text=ACCESS%20GRANTED&fontSize=30&fontColor=39d353&animation=twinkling" />
+
+</div>
+
+---
+
+<div align="center">
+
+```ansi
+[ SYSTEM ONLINE ]  [ ACCESS GRANTED ]  [ HACK THE PLANET ]
+```
 
 </div>
 
@@ -58,9 +64,13 @@ drwxr-xr-x  malware-analysis/ # Reverse engineering notes
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=LiveMedia48&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=39d353&text_color=c9d1d9)
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=LiveMedia48&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=39d353&text_color=c9d1d9&animate=true" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=LiveMedia48&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=39d353&text_color=c9d1d9)
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LiveMedia48&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=39d353&text_color=c9d1d9" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=LiveMedia48&theme=chartreuse-dark&hide_border=true&background=0d1117&stroke=39d353&ring=39d353&fire=39d353" />
 
 </div>
 
@@ -79,9 +89,7 @@ $ echo "Email: <YOUR_EMAIL>" >> contact.txt
 
 <div align="center">
 
-```
-[ SYSTEM ONLINE ] [ ACCESS GRANTED ] [ HACK THE PLANET ]
-```
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:39d353,100:0d1117&height=100&section=footer&animation=twinkling" />
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=LiveMedia48&color=39d353&style=flat-square&label=RECON+VISITORS)
 
