@@ -87,3 +87,17 @@ drwxr-xr-x  1337  root  red-team-ops/      # Adversary simulation & C2 infrastru
 ![Visitors](https://komarev.com/ghpvc/?username=LiveMedia48&color=00FF41&style=flat-square&label=RECON+VISITORS)
 
 </div>
+---
+
+### `> ls -la /popular-repos`
+
+<div align="center">
+
+<a href="https://github.com/LiveMedia48/YOUR_REPO_1">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LiveMedia48&repo=YOUR_REPO_1&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9" />
+</a>
+<a href="https://github.com/LiveMedia48/YOUR_REPO_2">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=LiveMedia48&repo=YOUR_REPO_2&theme=chartreuse-dark&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9" />
+</a>
+
+</div>
