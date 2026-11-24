@@ -1,9 +1,8 @@
 
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=LiveMedia48&label=Profile%20Views&color=00ff41&style=flat" alt="Profile Views" />
-  <a href="https://whatsapp.com/channel/0029VbDMdk8HLHQOjEtDUy0o">
-    <img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
-  </a>
+  <a href="https://whatsapp.com/channel/0029VbDMdk8HLHQOjEtDUy0o"><img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp Channel" /></a>
+  <a href="https://livemedia48.github.io/LiveMedia48/sayhi.html"><img src="https://img.shields.io/badge/Say_Hi-FFD700?style=flat&logo=telegram&logoColor=black" alt="Say Hi 👋🏻" /></a>
 </p>
 
 <div align="center">
@@ -124,8 +123,6 @@ $ cat /etc/role
 
 ---
 
-
-
 ### `> ping social_media`
 
 <div align="center">
@@ -142,14 +139,9 @@ $ cat /etc/role
 <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
 
-<a href="https://livemedia48.github.io/LiveMedia48/sayhi👋.html">
-<img src="https://img.shields.io/badge/Hi-00C853?style=for-the-badge&logo=telegram&logoColor=white" alt="Hi">
-</a>
-
 </div>
 
 <br>
-
 
 <div align="center">
 <i>System Integrity: 100% | Threat Level: Minimal | Hack the Planet 🌐</i>
