@@ -1,1 +1,87 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Say Hi | Live Media</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;min-height:100vh;display:grid;place-items:center;
+  background:#080d18;color:white;font-family:Arial,sans-serif;padding:20px
+}
+.card{
+  width:100%;max-width:420px;padding:28px;
+  background:#101a2b;border:1px solid #263750;
+  border-radius:18px;text-align:center
+}
+h1{color:#38bdf8}
+p{color:#a9b8cc}
+input{
+  width:100%;padding:14px;margin:10px 0;
+  border:1px solid #34465f;border-radius:9px;
+  background:#091322;color:white;font-size:16px
+}
+button{
+  width:100%;padding:14px;border:0;border-radius:9px;
+  background:#00c853;color:white;font-size:17px;
+  font-weight:bold;cursor:pointer
+}
+#status{margin-top:15px}
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>👋 Say Hi!</h1>
+  <p>Welcome to Live Media. Introduce yourself!</p>
+
+  <form id="hiForm">
+    <input id="name" placeholder="Your Name" required maxlength="80">
+    <input id="github" placeholder="GitHub Username" required maxlength="39">
+    <button id="sendBtn" type="submit">👋 Send Hi</button>
+  </form>
+
+  <div id="status"></div>
+</div>
+
+<script>
+const API_URL = "https://script.google.com/macros/s/AKfycbyAhjYIqDTBCEABAeYPDhYom4FdHCpTTTzEkkhTvqpvfpPltUYdy2KWbuK0oKoqdsVK/exec";
+
+document.getElementById("hiForm").addEventListener("submit", async function(e){
+  e.preventDefault();
+
+  const button = document.getElementById("sendBtn");
+  const status = document.getElementById("status");
+
+  button.disabled = true;
+  button.textContent = "Sending...";
+
+  const data = {
+    type: "hi",
+    name: document.getElementById("name").value.trim(),
+    github: document.getElementById("github").value.trim(),
+    message: "Someone clicked Hi on Live Media GitHub Profile"
+  };
+
+  try {
+    await fetch(API_URL,{
+      method:"POST",
+      mode:"no-cors",
+      headers:{"Content-Type":"text/plain;charset=utf-8"},
+      body:JSON.stringify(data)
+    });
+
+    status.textContent = "👋 Hi submitted! Thank you.";
+    document.getElementById("hiForm").reset();
+  } catch(error) {
+    status.textContent = "Unable to send. Please try again.";
+  }
+
+  button.disabled = false;
+  button.textContent = "👋 Send Hi";
+});
+</script>
+</body>
+</html>
+
