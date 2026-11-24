@@ -1,1 +1,48 @@
 
+
+name: Telegram GitHub Traffic Monitor
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  traffic-monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get GitHub Traffic and Send Telegram Report
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TRAFFIC_TOKEN }}
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+        run: |
+          set -euo pipefail
+
+          DATA=$(curl -fsSL \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            https://api.github.com/repos/LiveMedia48/LiveMedia48/traffic/views)
+
+          VIEWS=$(echo "$DATA" | jq -r '.count')
+          UNIQUE=$(echo "$DATA" | jq -r '.uniques')
+
+          MESSAGE="📊 GitHub Traffic Report
+
+          👤 Profile: LiveMedia48
+          📁 Repository: LiveMedia48
+
+          👀 Total Views (last 14 days): $VIEWS
+          🧑‍💻 Unique Visitors (last 14 days): $UNIQUE
+
+          🤖 Automated Report"
+
+          curl -fsSL -X POST \
+            "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+            -d "chat_id=${TG_CHAT_ID}" \
+            --data-urlencode "text=${MESSAGE}"
