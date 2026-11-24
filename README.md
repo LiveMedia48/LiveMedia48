@@ -146,3 +146,8 @@ $ cat /etc/role
 <sub>Automated GitHub Profile Analytics · Updated Daily</sub>
 
 </div>
+<p align="center">
+  <a href="https://whatsapp.com/channel/0029VbDMdk8HLHQOjEtDUy0o">
+    <img src="https://img.shields.io/badge/WhatsApp-Follow%20Our%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Channel">
+  </a>
+</p>
