@@ -1,3 +1,6 @@
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=LiveMedia48&label=Profile%20Views&color=00ff41&style=flat" alt="Profile Views" />
+</p>
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=35&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=%5B+SYSTEM+LOADING...%5D;%5B+ACCESS+GRANTED+%5D;Live+Media+Entertainment" alt="Typing SVG" />
