@@ -1,7 +1,11 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Mani+Thrissur" alt="Mani Thrissur" />
-  <br>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=600&lines=Live+Media" alt="Live Media" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=35&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=%5B+SYSTEM+LOADING...%5D;%5B+ACCESS+GRANTED+%5D;Live+Media+Entertainment" alt="Typing SVG" />
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=800&color=FF0000&center=true&vCenter=true&width=600&lines=HACK+THE+PLANET;Offensive+Security+%7C+Automation" alt="Typing SVG" />
+
 </div>
 
 <h3 align="center">[ 💀 Offensive Security Enthusiast | ⚙️ Automation Builder | 🐧 Linux Power User ]</h3>
@@ -96,9 +100,17 @@ $ cat /etc/role
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=LiveMedia48&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=3fb950&icon_color=3fb950&text_color=c9d1d9" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=LiveMedia48&theme=chartreuse-dark&hide_border=true&background=0D1117&stroke=3FB950&ring=3FB950&fire=3FB950&currStreakNum=3FB950&currStreakLabel=3FB950" alt="GitHub Streak" height="160" />
 
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LiveMedia48&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LiveMedia48&layout=donut&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=3FB950&text_color=C9D1D9" alt="Top Languages" height="160" />
+
+<br><br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=LiveMedia48&theme=matrix&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=LiveMedia48&bg_color=0D1117&color=3FB950&line=3FB950&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph" width="100%" />
 
 </div>
 
@@ -118,25 +130,4 @@ $ cat /etc/role
 
 <div align="center">
 <i>System Integrity: 100% | Threat Level: Minimal | Hack the Planet 🌐</i>
-</div>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=LiveMedia48&theme=chartreuse-dark&hide_border=true&background=0D1117&stroke=3FB950&ring=3FB950&fire=3FB950&currStreakNum=3FB950&currStreakLabel=3FB950" alt="GitHub Streak" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LiveMedia48&layout=donut&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=3FB950&text_color=C9D1D9" alt="Top Languages" />
-<img src="https://github-profile-trophy.vercel.app/?username=LiveMedia48&theme=matrix&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=LiveMedia48&bg_color=0D1117&color=3FB950&line=3FB950&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph" />
-### `> ./stats --matrix`
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=LiveMedia48&theme=chartreuse-dark&hide_border=true&background=0D1117&stroke=3FB950&ring=3FB950&fire=3FB950&currStreakNum=3FB950&currStreakLabel=3FB950" alt="GitHub Streak" height="160" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LiveMedia48&layout=donut&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=3FB950&text_color=C9D1D9" alt="Top Languages" height="160" />
-
-<br><br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=LiveMedia48&theme=matrix&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
-
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=LiveMedia48&bg_color=0D1117&color=3FB950&line=3FB950&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph" width="100%" />
-
 </div>
