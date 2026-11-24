@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Message LiveMedia48</title>
+
 <style>
 *{box-sizing:border-box}
 body{
@@ -53,6 +54,7 @@ button:disabled{opacity:.6}
 #status{margin-top:14px;font-size:14px}
 </style>
 </head>
+
 <body>
 <div class="card">
   <h1>Message LiveMedia48 👋</h1>
@@ -69,12 +71,45 @@ button:disabled{opacity:.6}
 </div>
 
 <script>
-document.getElementById("messageForm").addEventListener("submit", async function(e){
+const API_URL = "https://script.google.com/macros/s/AKfycbyAhjYIqDTBCEABAeYPDhYom4FdHCpTTTzEkkhTvqpvfpPltUYdy2KWbuK0oKoqdsVK/exec";
+
+document.getElementById("messageForm").addEventListener("submit", async function(e) {
   e.preventDefault();
-  document.getElementById("status").textContent =
-    "Message service setup pending.";
+
+  const button = document.getElementById("sendBtn");
+  const status = document.getElementById("status");
+
+  button.disabled = true;
+  button.textContent = "Sending...";
+  status.textContent = "";
+
+  const data = {
+    name: document.getElementById("name").value.trim(),
+    github: document.getElementById("github").value.trim(),
+    message: document.getElementById("message").value.trim()
+  };
+
+  try {
+    await fetch(API_URL, {
+      method: "POST",
+      mode: "no-cors",
+      headers: {
+        "Content-Type": "text/plain;charset=utf-8"
+      },
+      body: JSON.stringify(data)
+    });
+
+    status.textContent = "Message submitted. Please check with LiveMedia48.";
+    document.getElementById("messageForm").reset();
+
+  } catch (error) {
+    status.textContent = "Unable to send. Please try again.";
+  }
+
+  button.disabled = false;
+  button.textContent = "Send Message";
 });
 </script>
+
 </body>
 </html>
-
