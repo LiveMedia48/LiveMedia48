@@ -1,6 +1,11 @@
+
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=LiveMedia48&label=Profile%20Views&color=00ff41&style=flat" alt="Profile Views" />
+  <a href="https://whatsapp.com/channel/0029VbDMdk8HLHQOjEtDUy0o">
+    <img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
+  </a>
 </p>
+
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=35&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=%5B+SYSTEM+LOADING...%5D;%5B+ACCESS+GRANTED+%5D;Live+Media+Entertainment" alt="Typing SVG" />
@@ -146,8 +151,3 @@ $ cat /etc/role
 <sub>Automated GitHub Profile Analytics · Updated Daily</sub>
 
 </div>
-<p align="center">
-  <a href="https://whatsapp.com/channel/0029VbDMdk8HLHQOjEtDUy0o">
-    <img src="https://img.shields.io/badge/WhatsApp-Follow%20Our%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Channel">
-  </a>
-</p>
