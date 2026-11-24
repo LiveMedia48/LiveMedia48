@@ -131,3 +131,15 @@ $ cat /etc/role
 <div align="center">
 <i>System Integrity: 100% | Threat Level: Minimal | Hack the Planet 🌐</i>
 </div>
+
+---
+
+### `> ./metrics --live`
+
+<div align="center">
+
+<img src="./github-metrics.svg" alt="LiveMedia48 GitHub Metrics" width="100%" />
+
+<sub>Automated GitHub Profile Analytics · Updated Daily</sub>
+
+</div>
