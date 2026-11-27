@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#09090e">
+<title>Live Media Admin</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#09090e;color:#fff;font-family:Arial,sans-serif;padding:25px}
+.container{max-width:850px;margin:auto}
+h1 span{color:#bd78ff}
+.card{background:#15111d;border:1px solid #342342;padding:22px;border-radius:12px;margin:20px 0}
+button{background:#a344e8;color:white;border:0;padding:12px 18px;border-radius:6px;font-weight:bold;cursor:pointer;margin:5px}
+input{width:100%;padding:13px;margin:8px 0;background:#09090e;border:1px solid #49345a;color:white;border-radius:6px}
+.item{padding:14px;border-bottom:1px solid #382a43;display:flex;justify-content:space-between;gap:10px;overflow-wrap:anywhere}
+.item a{color:#c084fc}
+.danger{background:#a32945}
+small{color:#aaa}
+#message{color:#c084fc}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>LIVE MEDIA <span>ADMIN</span></h1>
+<p><small>Administration Dashboard</small></p>
+
+<div class="card">
+<h2>Google Administrator Login</h2>
+<p>Only approved Google accounts can access admin functions.</p>
+<button onclick="location.href='/api/auth/google'">LOGIN WITH GOOGLE</button>
+<button class="danger" onclick="logout()">LOGOUT</button>
+<p id="message"></p>
+</div>
+
+<div class="card">
+<h2>Social Media Management</h2>
+<form id="linkForm">
+<input id="platform" placeholder="Platform (Instagram, Facebook, WhatsApp)" required>
+<input id="url" type="url" placeholder="Social Media URL" required>
+<button type="submit">ADD SOCIAL LINK</button>
+</form>
+<div id="links">Loading links...</div>
+</div>
+
+<div class="card">
+<h2>Admin Login History</h2>
+<button onclick="loadLogs()">REFRESH LOGIN HISTORY</button>
+<div id="logs">Login history will appear here.</div>
+</div>
+</div>
+
+<script>
+const message = document.getElementById("message");
+
+async function loadLinks(){
+  const box = document.getElementById("links");
+  try{
+    const response = await fetch("/api/admin/social-links");
+    if(!response.ok) throw new Error("Could not load links");
+    const links = await response.json();
+
+    box.innerHTML = "";
+    if(!links.length){
+      box.textContent = "No social links added yet.";
+      return;
+    }
+
+    links.forEach(link=>{
+      const item = document.createElement("div");
+      item.className = "item";
+
+      const info = document.createElement("div");
+      const name = document.createElement("strong");
+      name.textContent = link.platform + " ";
+      const anchor = document.createElement("a");
+      anchor.href = link.url;
+      anchor.textContent = "Open link";
+      anchor.target = "_blank";
+      anchor.rel = "noopener noreferrer";
+      info.append(name, anchor);
+
+      const remove = document.createElement("button");
+      remove.className = "danger";
+      remove.textContent = "DELETE";
+      remove.onclick = ()=>deleteLink(link.id);
+
+      item.append(info, remove);
+      box.append(item);
+    });
+  }catch(error){
+    box.textContent = error.message;
+  }
+}
+
+document.getElementById("linkForm").addEventListener("submit",async event=>{
+  event.preventDefault();
+  message.textContent = "Saving...";
+
+  try{
+    const response = await fetch("/api/admin/social-links",{
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({
+        platform:document.getElementById("platform").value.trim(),
+        url:document.getElementById("url").value.trim()
+      })
+    });
+
+    const result = await response.json();
+    if(!response.ok) throw new Error(result.error || "Save failed");
+
+    event.target.reset();
+    message.textContent = "Social link added successfully.";
+    loadLinks();
+  }catch(error){
+    message.textContent = error.message;
+  }
+});
+
+async function deleteLink(id){
+  if(!confirm("Delete this social link?")) return;
+
+  try{
+    const response = await fetch("/api/admin/social-links",{
+      method:"DELETE",
+      headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({id})
+    });
+
+    const result = await response.json();
+    if(!response.ok) throw new Error(result.error || "Delete failed");
+
+    message.textContent = "Link deleted.";
+    loadLinks();
+  }catch(error){
+    message.textContent = error.message;
+  }
+}
+
+async function loadLogs(){
+  const box = document.getElementById("logs");
+  box.textContent = "Loading...";
+
+  try{
+    const response = await fetch("/api/admin/login-logs");
+    if(!response.ok) throw new Error("Admin login required");
+
+    const result = await response.json();
+    box.innerHTML = "";
+
+    if(!result.logs.length){
+      box.textContent = "No login history.";
+      return;
+    }
+
+    result.logs.forEach(log=>{
+      const item = document.createElement("div");
+      item.className = "item";
+      item.textContent = log.email + " — " +
+        new Date(log.login_time.replace(" ","T")+"Z").toLocaleString();
+      box.append(item);
+    });
+  }catch(error){
+    box.textContent = error.message;
+  }
+}
+
+async function logout(){
+  await fetch("/api/auth/logout",{method:"POST"});
+  location.reload();
+}
+
+loadLinks();
+loadLogs();
+</script>
+</body>
+</html>
