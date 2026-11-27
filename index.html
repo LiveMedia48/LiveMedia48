@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080610">
+<meta name="description" content="Live Media Entertainment - Creating experiences, amplifying moments.">
+<title>Live Media Entertainment</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #080610;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    padding: 22px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(8,6,16,0.92);
+    border-bottom: 1px solid rgba(168,85,247,0.18);
+    position: relative;
+    z-index: 5;
+}
+
+.logo {
+    font-size: 21px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: #a855f7;
+}
+
+nav a {
+    color: #ddd;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+    transition: .3s;
+}
+
+nav a:hover {
+    color: #c084fc;
+}
+
+.hero {
+    min-height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px 20px;
+    position: relative;
+    background:
+    radial-gradient(ellipse at 50% 45%,
+    rgba(126,34,206,.23), transparent 55%);
+}
+
+.tag {
+    color: #c084fc;
+    border: 1px solid rgba(192,132,252,.4);
+    padding: 9px 18px;
+    border-radius: 30px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-size: clamp(38px, 7vw, 78px);
+    line-height: 1.1;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+.hero h1 span {
+    background: linear-gradient(90deg,#a855f7,#e879f9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.hero p {
+    max-width: 620px;
+    color: #aaa2b7;
+    line-height: 1.8;
+    font-size: 16px;
+    margin: 25px 0 35px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 8px;
+    background: linear-gradient(100deg,#7e22ce,#a855f7);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 30px rgba(168,85,247,.25);
+    transition: .3s;
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 40px rgba(168,85,247,.5);
+}
+
+.section {
+    padding: 90px 8%;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section h2 span {
+    color: #b56aff;
+}
+
+.section p {
+    max-width: 700px;
+    margin: auto;
+    color: #aaa2b7;
+    line-height: 1.9;
+    font-size: 15px;
+}
+
+.divider {
+    width: 65px;
+    height: 3px;
+    margin: 20px auto 30px;
+    background: linear-gradient(90deg,#7e22ce,#e879f9);
+    border-radius: 10px;
+}
+
+footer {
+    padding: 30px 15px;
+    text-align: center;
+    border-top: 1px solid rgba(168,85,247,.2);
+    color: #777080;
+    font-size: 13px;
+}
+
+footer span {
+    color: #c084fc;
+}
+
+@media(max-width:600px) {
+    header {
+        padding: 20px 5%;
+    }
+
+    .logo {
+        font-size: 17px;
+    }
+
+    nav a {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .hero {
+        min-height: 80vh;
+    }
+
+    .section {
+        padding: 70px 7%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">LIVE MEDIA <span>ENTERTAINMENT</span></div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+
+    <div class="tag">WELCOME TO OUR WORLD</div>
+
+    <h1>
+        LIVE MEDIA<br>
+        <span>ENTERTAINMENT</span>
+    </h1>
+
+    <p>
+        Creating experiences. Amplifying moments.
+        Welcome to Live Media Entertainment.
+    </p>
+
+    <a href="#about" class="btn">DISCOVER MORE</a>
+
+</section>
+
+<section class="section" id="about">
+
+    <h2>ABOUT <span>US</span></h2>
+
+    <div class="divider"></div>
+
+    <p>
+        Welcome to Live Media Entertainment.
+        A brand built around creativity, passion
+        and the power of entertainment.
+
+        <br><br>
+        More exciting things are coming soon.
+    </p>
+
+</section>
+</main>
+
+<footer>
+    © 2026 <span>LIVE MEDIA ENTERTAINMENT</span>.
+    All Rights Reserved.
+</footer>
+
+</body>
+</html>
