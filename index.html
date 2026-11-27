@@ -4,188 +4,72 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#080610">
-<meta name="description" content="Live Media Entertainment - Creating experiences, amplifying moments.">
-<title>Live Media Entertainment</title>
+<meta name="theme-color" content="#08080d">
+<title>Live Media Entertainment | Professional Audio & Events</title>
+<meta name="description" content="Live Media Entertainment - Professional sound, lighting and event experiences.">
 
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:#09090e;color:#fff;font-family:Arial,Helvetica,sans-serif}
+a{text-decoration:none;color:inherit}
+header{height:82px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;background:#09090e;border-bottom:1px solid #292331;position:sticky;top:0;z-index:10}
+.logo{font-size:21px;font-weight:900;letter-spacing:1px}
+.logo span{color:#b56aff}
+nav{display:flex;gap:30px;font-size:13px;color:#ddd}
+nav a:hover{color:#c084fc}
+.menu{display:none}
+.hero{min-height:650px;padding:100px 8%;display:flex;align-items:center;background:linear-gradient(90deg,#09090e 5%,rgba(9,9,14,.88) 45%,rgba(9,9,14,.25)),url('https://images.unsplash.com/photo-1506157786151-b8491531f063?w=1800') center/cover}
+.hero-content{max-width:720px}
+.tag{color:#c084fc;letter-spacing:4px;font-size:12px;font-weight:bold;margin-bottom:25px}
+h1{font-size:clamp(43px,7vw,82px);line-height:1.04;font-weight:900;letter-spacing:-2px}
+h1 span,.purple{color:#bd78ff}
+.hero p{color:#c4bdcc;line-height:1.8;margin:27px 0;max-width:560px;font-size:16px}
+.btn{display:inline-block;padding:16px 27px;background:#a344e8;border:1px solid #bd78ff;font-weight:bold;font-size:12px;letter-spacing:1px;transition:.3s}
+.btn:hover{background:#fff;color:#09090e}
+.btn-outline{background:transparent;margin-left:10px}
+.section{padding:100px 8%}
+.section-head{margin-bottom:45px}
+.section-head small{color:#bd78ff;letter-spacing:3px;font-weight:bold}
+.section-head h2{font-size:clamp(30px,4vw,45px);margin-top:13px}
+.section-head p{color:#aaa;line-height:1.8;margin-top:15px;max-width:650px}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.service{background:#121019;border:1px solid #292331;overflow:hidden;transition:.3s}
+.service:hover{transform:translateY(-7px);border-color:#a344e8}
+.service img{width:100%;height:220px;object-fit:cover;display:block}
+.service-content{padding:25px}
+.service h3{font-size:20px;margin-bottom:12px}
+.service p{font-size:14px;color:#aaa;line-height:1.8}
+.service a{display:inline-block;margin-top:20px;color:#c084fc;font-size:12px;font-weight:bold}
+.feature{background:linear-gradient(120deg,#21112d,#0d0b13);display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:50px}
+.feature img{width:100%;max-height:420px;object-fit:cover}
+.feature h2{font-size:clamp(30px,4vw,46px);margin:18px 0}
+.feature p{color:#bbb;line-height:1.9;margin-bottom:25px}
+.projects{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.project{height:290px;position:relative;overflow:hidden}
+.project img{width:100%;height:100%;object-fit:cover;transition:.5s}
+.project:hover img{transform:scale(1.06)}
+.project div{position:absolute;bottom:0;padding:25px;width:100%;background:linear-gradient(transparent,#000)}
+.project h3{font-size:22px}
+.contact{background:#171020;text-align:center;padding:90px 20px}
+.contact h2{font-size:clamp(30px,5vw,48px);margin-bottom:20px}
+.contact p{color:#bbb;margin-bottom:30px}
+footer{padding:35px 8%;border-top:1px solid #292331;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:#999;font-size:13px}
+footer span{color:#c084fc}
+@media(max-width:800px){
+ header{height:auto;min-height:75px;padding:20px 5%;flex-wrap:wrap;gap:18px}
+ nav{gap:16px;flex-wrap:wrap}
+ .hero{min-height:570px;padding:80px 7%;background-position:60%}
+ .services{grid-template-columns:1fr}
+ .feature{grid-template-columns:1fr}
+ .projects{grid-template-columns:1fr}
+ .section{padding:75px 7%}
+ .service img{height:230px}
 }
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    background: #080610;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
-}
-
-header {
-    width: 100%;
-    padding: 22px 8%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: rgba(8,6,16,0.92);
-    border-bottom: 1px solid rgba(168,85,247,0.18);
-    position: relative;
-    z-index: 5;
-}
-
-.logo {
-    font-size: 21px;
-    font-weight: 900;
-    letter-spacing: 1px;
-}
-
-.logo span {
-    color: #a855f7;
-}
-
-nav a {
-    color: #ddd;
-    text-decoration: none;
-    margin-left: 25px;
-    font-size: 14px;
-    transition: .3s;
-}
-
-nav a:hover {
-    color: #c084fc;
-}
-
-.hero {
-    min-height: 88vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 70px 20px;
-    position: relative;
-    background:
-    radial-gradient(ellipse at 50% 45%,
-    rgba(126,34,206,.23), transparent 55%);
-}
-
-.tag {
-    color: #c084fc;
-    border: 1px solid rgba(192,132,252,.4);
-    padding: 9px 18px;
-    border-radius: 30px;
-    font-size: 11px;
-    letter-spacing: 3px;
-    margin-bottom: 30px;
-}
-
-.hero h1 {
-    font-size: clamp(38px, 7vw, 78px);
-    line-height: 1.1;
-    font-weight: 900;
-    letter-spacing: -2px;
-}
-
-.hero h1 span {
-    background: linear-gradient(90deg,#a855f7,#e879f9);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
-.hero p {
-    max-width: 620px;
-    color: #aaa2b7;
-    line-height: 1.8;
-    font-size: 16px;
-    margin: 25px 0 35px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 15px 30px;
-    border-radius: 8px;
-    background: linear-gradient(100deg,#7e22ce,#a855f7);
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow: 0 0 30px rgba(168,85,247,.25);
-    transition: .3s;
-}
-
-.btn:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 0 40px rgba(168,85,247,.5);
-}
-
-.section {
-    padding: 90px 8%;
-    text-align: center;
-}
-
-.section h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-.section h2 span {
-    color: #b56aff;
-}
-
-.section p {
-    max-width: 700px;
-    margin: auto;
-    color: #aaa2b7;
-    line-height: 1.9;
-    font-size: 15px;
-}
-
-.divider {
-    width: 65px;
-    height: 3px;
-    margin: 20px auto 30px;
-    background: linear-gradient(90deg,#7e22ce,#e879f9);
-    border-radius: 10px;
-}
-
-footer {
-    padding: 30px 15px;
-    text-align: center;
-    border-top: 1px solid rgba(168,85,247,.2);
-    color: #777080;
-    font-size: 13px;
-}
-
-footer span {
-    color: #c084fc;
-}
-
-@media(max-width:600px) {
-    header {
-        padding: 20px 5%;
-    }
-
-    .logo {
-        font-size: 17px;
-    }
-
-    nav a {
-        margin-left: 10px;
-        font-size: 12px;
-    }
-
-    .hero {
-        min-height: 80vh;
-    }
-
-    .section {
-        padding: 70px 7%;
-    }
+@media(max-width:420px){
+ .logo{font-size:17px}
+ nav{font-size:12px;gap:13px}
+ .btn{padding:14px 18px}
 }
 </style>
 </head>
@@ -193,53 +77,103 @@ footer span {
 <body>
 
 <header>
-    <div class="logo">LIVE MEDIA <span>ENTERTAINMENT</span></div>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-    </nav>
+ <a class="logo" href="#home">LIVE MEDIA <span>ENTERTAINMENT</span></a>
+ <nav>
+  <a href="#home">HOME</a>
+  <a href="#services">SERVICES</a>
+  <a href="#projects">PROJECTS</a>
+  <a href="#about">ABOUT</a>
+  <a href="#contact">CONTACT</a>
+ </nav>
 </header>
 
 <main>
 <section class="hero" id="home">
-
-    <div class="tag">WELCOME TO OUR WORLD</div>
-
-    <h1>
-        LIVE MEDIA<br>
-        <span>ENTERTAINMENT</span>
-    </h1>
-
-    <p>
-        Creating experiences. Amplifying moments.
-        Welcome to Live Media Entertainment.
-    </p>
-
-    <a href="#about" class="btn">DISCOVER MORE</a>
-
+ <div class="hero-content">
+  <div class="tag">PROFESSIONAL AUDIO · LIGHTING · EVENTS</div>
+  <h1>WE CREATE<br><span>EXPERIENCES.</span></h1>
+  <p>Bringing sound, lighting and entertainment together to create unforgettable live experiences.</p>
+  <a class="btn" href="#services">EXPLORE OUR WORLD →</a>
+  <a class="btn btn-outline" href="#contact">CONTACT US</a>
+ </div>
 </section>
 
-<section class="section" id="about">
+<section class="section" id="services">
+ <div class="section-head">
+  <small>WHAT WE DO</small>
+  <h2>OUR <span class="purple">EXPERTISE</span></h2>
+  <p>Professional solutions designed to bring every event to life.</p>
+ </div>
 
-    <h2>ABOUT <span>US</span></h2>
+ <div class="services">
+  <article class="service">
+   <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=900" alt="Live sound event">
+   <div class="service-content">
+    <h3>Professional Sound</h3>
+    <p>Powerful audio experiences and professional live sound solutions.</p>
+    <a href="#contact">EXPLORE MORE →</a>
+   </div>
+  </article>
 
-    <div class="divider"></div>
+  <article class="service">
+   <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=900" alt="Stage lighting">
+   <div class="service-content">
+    <h3>Stage & Lighting</h3>
+    <p>Creative lighting and stage experiences for unforgettable events.</p>
+    <a href="#contact">EXPLORE MORE →</a>
+   </div>
+  </article>
 
-    <p>
-        Welcome to Live Media Entertainment.
-        A brand built around creativity, passion
-        and the power of entertainment.
+  <article class="service">
+   <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=900" alt="Event production">
+   <div class="service-content">
+    <h3>Event Production</h3>
+    <p>Technical planning and production for live entertainment events.</p>
+    <a href="#contact">EXPLORE MORE →</a>
+   </div>
+  </article>
+ </div>
+</section>
 
-        <br><br>
-        More exciting things are coming soon.
-    </p>
+<section class="section feature" id="about">
+ <div>
+  <small class="purple">ABOUT LIVE MEDIA</small>
+  <h2>PASSION FOR<br>PERFECTION.</h2>
+  <p>Live Media Entertainment is built around creativity, technology and the passion for delivering exceptional entertainment experiences.</p>
+  <a class="btn" href="#contact">GET IN TOUCH →</a>
+ </div>
+ <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=1000" alt="Live entertainment">
+</section>
 
+<section class="section" id="projects">
+ <div class="section-head">
+  <small>OUR WORK</small>
+  <h2>LIVE THE <span class="purple">EXPERIENCE</span></h2>
+  <p>Every event deserves an extraordinary experience.</p>
+ </div>
+ <div class="projects">
+  <div class="project">
+   <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=1000" alt="Concert production">
+   <div><h3>Live Concerts</h3></div>
+  </div>
+  <div class="project">
+   <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1000" alt="Stage event">
+   <div><h3>Stage Experiences</h3></div>
+  </div>
+ </div>
+</section>
+
+<section class="contact" id="contact">
+ <small class="purple">LET'S CREATE SOMETHING AMAZING</small>
+ <h2>LET'S WORK <span class="purple">TOGETHER.</span></h2>
+ <p>Have an event or project in mind? Let's connect.</p>
+ <a class="btn" href="mailto:info@livemediaentertainment.com">CONTACT US →</a>
 </section>
 </main>
 
 <footer>
-    © 2026 <span>LIVE MEDIA ENTERTAINMENT</span>.
-    All Rights Reserved.
+ <div>© 2026 <span>LIVE MEDIA ENTERTAINMENT</span>. All Rights Reserved.</div>
+ <div>Professional Audio · Lighting · Entertainment</div>
 </footer>
 
 </body>
