@@ -946,17 +946,22 @@
                       <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
                       <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.6666666666666665 0,1.6666666666666665 z"/>
                       <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.6666666666666665 1.7,2.6666666666666665 z"/>
+                    </g>
+                    <g transform="translate(-8.5, 9.666666666666668)">
+                      <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                      <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.333333333333333 0,2.333333333333333 z"/>
+                      <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.333333333333333 1.7,3.333333333333333 z"/>
                     </g></g></g></svg></div>
-<b>    1</b> consecutive day with commits
-<b>~0.46</b> commits per day in average
+<b>    2</b> consecutive days with commits
+<b>~0.51</b> commits per day in average
 </div>
 
 
-<div class="stdin"><span class="ps1-path">livemedia48@metrics</span>:<span class="ps1-location">~</span>$ locale</div><div class="stdout"><b>JAVASCRIPT  </b> [################### ] 90.34%
-<b>PYTHON      </b> [##                  ] 7.05 %
-<b>SHELL       </b> [#                   ] 1.45 %
-<b>HTML        </b> [#                   ] 0.67 %
-<b>PHP         </b> [#                   ] 0.47 %
+<div class="stdin"><span class="ps1-path">livemedia48@metrics</span>:<span class="ps1-location">~</span>$ locale</div><div class="stdout"><b>JAVASCRIPT  </b> [##################  ] 88.98%
+<b>PYTHON      </b> [##                  ] 6.83 %
+<b>HTML        </b> [#                   ] 2.29 %
+<b>SHELL       </b> [#                   ] 1.41 %
+<b>PHP         </b> [#                   ] 0.45 %
 <b>DOCKERFILE  </b> [#                   ] 0.03 %
 </div>
 </pre>
